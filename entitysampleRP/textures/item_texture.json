@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "blankentity_spawn_egg": {
+      "textures": "textures/items/blankentity_spawn_egg.png"
+    },
+    "furniture_spawn_egg": {
+      "textures": "textures/items/furniture_spawn_egg.png"
+    },
+    "movableentity_spawn_egg": {
+      "textures": "textures/items/movableentity_spawn_egg.png"
+    }
+  }
+}

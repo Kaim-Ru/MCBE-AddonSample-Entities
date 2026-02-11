@@ -1,0 +1,48 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "kaimtemp:furniture",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:collision_box": {
+        "height": 0.8,
+        "width": 0.8
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      //透明時に表示する状態で透明のエフェクトをかけると影だけ消える
+      "minecraft:renders_when_invisible": {},
+      "minecraft:spell_effects": {
+        "add_effects": [
+          {
+            "effect": "invisibility",
+            "duration": 9999999,
+            "visible": false
+          }
+        ]
+      },
+      //向きを4方向に固定
+      "minecraft:rotation_axis_aligned": {},
+      "minecraft:body_rotation_blocked": {},
+      //当たり判定をブロックのように
+      "minecraft:is_collidable": {},
+      //ノックバック無効化
+      "minecraft:knockback_resistance": {
+        "value": 5,
+        "max": 5
+      }
+    }
+  }
+}

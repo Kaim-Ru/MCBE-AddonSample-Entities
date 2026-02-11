@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "エンティティ追加サンプル",
+    "description": "ブランク,動き,家具を追加",
+    "uuid": "855512e1-7c1f-440e-9aeb-691e7300b059",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [1, 0, 0],
+      "uuid": "a2b7d138-3dac-4dcc-aeea-7ebbcd69a783",
+      "type": "data"
+    }
+  ]
+}

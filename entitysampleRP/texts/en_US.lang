@@ -1,0 +1,6 @@
+entity.kaimtemp:blankentity.name=blankentity
+item.spawn_egg.entity.kaimtemp:blankentity.name=Spawn blankentity
+entity.kaimtemp:furniture.name=furniture
+item.spawn_egg.entity.kaimtemp:furniture.name=Spawn furniture
+entity.kaimtemp:movableentity.name=movableentity
+item.spawn_egg.entity.kaimtemp:movableentity.name=Spawn movableentity

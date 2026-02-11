@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "エンティティ追加サンプル",
+    "description": "ブランク,動き,家具を追加",
+    "uuid": "4aee4467-1802-446a-a7af-94b08ce2366d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "metadata": {
+    "authors": ["KaimRu"],
+    "generated_with": {
+      "blockbench_entity_wizard": ["1.8.2"]
+    }
+  },
+  "modules": [
+    {
+      "description": "エンティティ追加サンプル",
+      "type": "resources",
+      "uuid": "5f6258f3-aa6b-4559-8ec7-aefede841911",
+      "version": [1, 0, 0]
+    }
+  ]
+}
